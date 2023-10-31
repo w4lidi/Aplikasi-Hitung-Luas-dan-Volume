@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Aplikasi Hitung Luas dan Volume"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/editTextPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/hint"
+        android:hint="Panjang (required)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:textColorHint="@color/hint"
+        android:hint="Lebar (required)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:textColorHint="@color/hint"
+        android:hint="Tinggi (opsional)"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/editTextHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Copyright @WalidiWahyuPratama Corp." />
+
+</LinearLayout>
