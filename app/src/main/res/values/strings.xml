@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Hitung luas dan volume by walidiwahyuP</string>
+    <string name="usernameText">w</string>
+    <string name="loginTitle">Login Dulu dong...</string>
+    <string name="passwordHint">Password</string>
+    <string name="usernameHint">Username</string>
+    <string name="buttonLoginText">Login</string>
 </resources>
