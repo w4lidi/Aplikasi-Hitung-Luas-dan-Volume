@@ -1,4 +1,4 @@
 2023/11/3
-- Change vie to ViewBinging
+- Change view to ViewBinging
 - Add Changelog Files
 - Add Login Screen
