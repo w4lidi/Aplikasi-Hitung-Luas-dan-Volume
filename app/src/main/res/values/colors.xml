@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="error">#E80606</color>
     <color name="hint">#DCDBDB</color>
+    <color name="success">#0EFF0E</color>
 </resources>
