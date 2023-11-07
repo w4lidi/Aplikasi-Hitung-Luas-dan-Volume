@@ -1,8 +1,26 @@
 <resources>
     <string name="app_name">Hitung luas dan volume by walidiwahyuP</string>
+
+<!--    start hitung luas app-->
+    <string name="appTitle">Aplikasi Hitung Luas dan Volume</string>
+    <string name="buttonHitung">Hitung</string>
+    <string name="hasilDefault">0</string>
+    <string name="lebarTextHint">Lebar (Requaired)</string>
+    <string name="panjangTextHint">Panjang (Requaired)</string>
+    <string name="tinggiTextHint">Tinggi (Opsional)</string>
+
+<!--    end hitung luas app-->
+
+
+<!--    start login screen-->
     <string name="usernameText">w</string>
-    <string name="loginTitle">Login Dulu dong...</string>
+    <string name="loginTitle">Login Dulu dong.....</string>
     <string name="passwordHint">Password</string>
     <string name="usernameHint">Username</string>
     <string name="buttonLoginText">Login</string>
+<!--    end login screen-->
+
+<!--    start CopyRight-->
+    <string name="copyRight">Copyright @WalidiWahyuPratama Corp.</string>
+<!--    end CopyRight-->
 </resources>

@@ -33,39 +33,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingBottom="300sp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="300sp">
+
         <EditText
             android:id="@+id/editTextUsername"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="48dp"
-            android:hint="@string/usernameHint"
             android:ems="10"
-            android:labelFor="@string/usernameHint"
-            android:inputType="text"
+            android:gravity="center"
+            android:hint="@string/usernameHint"
+
             android:importantForAutofill="no"
-            tools:ignore="VisualLintTextFieldSize" />
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTextPassword"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="48dp"
             android:ems="10"
+            android:gravity="center"
             android:hint="@string/passwordHint"
-            android:labelFor="@id/editTextPassword"
-            android:inputType="textPassword"
             android:importantForAutofill="no"
-            tools:ignore="VisualLintTextFieldSize" />
+            android:inputType="textPassword" />
 
         <Button
             android:id="@+id/buttonLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/buttonLoginText"
-            android:labelFor="@id/buttonLogin"
             android:gravity="center"
-            android:textSize="20sp"
-             />
+            android:labelFor="@id/buttonLogin"
+            android:text="@string/buttonLoginText"
+            android:textSize="20sp" />
     </LinearLayout>
     <include layout="@layout/activity_copyrights"/>
 </LinearLayout>
