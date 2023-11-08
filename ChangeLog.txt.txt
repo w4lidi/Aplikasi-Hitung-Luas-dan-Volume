@@ -4,3 +4,5 @@
 - Add Login Screen
 2023/11/6
 - Add login System
+2023/11/6
+- Fixing Layout Error & Warning

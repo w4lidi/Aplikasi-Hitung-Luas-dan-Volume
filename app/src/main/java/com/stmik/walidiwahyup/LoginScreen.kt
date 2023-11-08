@@ -1,5 +1,6 @@
 package com.stmik.walidiwahyup
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
@@ -9,8 +10,10 @@ class LoginScreen : AppCompatActivity() {
 
     private lateinit var login : ActivityLoginScreenBinding
 
-    val username = "w4lidi"
-    val pass = "walidi"
+    private val username = "w4lidi"
+    private val pass = "walidi"
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -36,13 +39,14 @@ class LoginScreen : AppCompatActivity() {
                 if ((inputUserName == username) && (inputPassword == pass)){
                     log.setTextColor(ContextCompat.getColor(this, R.color.success))
                     log.text = "Selamat ... \n Anda berhasil login."
+                    val foot = Intent(this, MainActivity::class.java)
+                    startActivity(foot)
                 }else{
                     log.setTextColor(ContextCompat.getColor(this, R.color.error))
                     log.text = "Try again... \n Login Failed."
                 }
             }
         }
-
 
     }
 }
